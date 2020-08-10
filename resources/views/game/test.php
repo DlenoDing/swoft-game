@@ -10,7 +10,7 @@
     <div >  
         <tr>
           <td>服务器：</td>
-          <td><input style="HEIGHT: 21px; WIDTH: 400px" size="17" id="url" value="ws://192.168.7.197:10000/game" ></td>
+          <td><input style="HEIGHT: 21px; WIDTH: 400px" size="17" id="url" value="ws://192.168.3.210:10000/game" ></td>
           <td><input style="HEIGHT: 20px; WIDTH: 97px" size="98" type="button" value="连接" id="ConnBt" onclick="do_conn()"></td>
         </tr>
     </div>
@@ -84,7 +84,7 @@
 		var func = document.getElementById('req_cmd').value; 
         var data = document.getElementById('SendText').value;
         if(data.length <= 0) return ;
-		eval("Req."+func+"(obj, data)");              
+		eval("Req."+func+"(obj, data)");
     };
           
 </script>  

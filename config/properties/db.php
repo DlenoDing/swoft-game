@@ -11,8 +11,8 @@ return [
     'master' => [
         'name'        => 'master',
         'uri'         => [
-            '192.168.22.34:3307/accounts_mj?user=web&password=111www&charset=utf8',
-            '192.168.22.34:3307/accounts_mj?user=web&password=111www&charset=utf8',
+            '192.168.3.211:3306/test?user=root&password=root&charset=utf8',
+            '192.168.3.211:3306/test?user=root&password=root&charset=utf8',
         ],
         'minActive'   => 8,
         'maxActive'   => 8,
@@ -25,8 +25,8 @@ return [
     'slave' => [
         'name'        => 'slave',
         'uri'         => [
-            '192.168.22.34:3307/accounts_mj?user=web&password=111www&charset=utf8',
-            '192.168.22.34:3307/accounts_mj?user=web&password=111www&charset=utf8',
+            '192.168.3.211:3306/test?user=root&password=root&charset=utf8',
+            '192.168.3.211:3306/test?user=root&password=root&charset=utf8',
         ],
         'minActive'   => 8,
         'maxActive'   => 8,

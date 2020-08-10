@@ -34,7 +34,7 @@
 <div id="login">
 <form  method="post">
     <input type="hidden" id= "action" name="action" value="login" >
-    用户帐号：<input type="text" id= "account" name="account" size="18" value="" >
+    用户帐号：<input type="text" id= "account" name="account" size="18" value="admin" >
     <input type="submit" name="submit" value="登陆" onclick="return check(this.form)">
 </form>
 </div>

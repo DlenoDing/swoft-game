@@ -72,7 +72,7 @@ class Packet {
 
 //测试发送protobuf 发送请求
 $client = new swoole_client(SWOOLE_SOCK_TCP);
-if (!$client->connect('127.0.0.1', 20001, -1))
+if (!$client->connect('127.0.0.1', 20002, -1))
 {
     exit("connect failed. Error: {$client->errCode}\n");
 }
